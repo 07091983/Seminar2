@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Nazvanie;
+    src: url()
+}
+
+* {
+  margin: 1px 4px 4px 4px;
+  /* margin: 10px 20px 30px 30px;
+  padding: 1px 1px 1px 1px; */
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    padding: 5px 10px 15px 18px;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    padding: 0 20px;
+    list-style-type: none;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+
+h1{
+    margin: auto;
+    z-index: 1;
+}
+
+main{
+    margin: 0 10px 0 10px;
+}
+
+p{
+    font-family: Nazvanie;
+    font-size: 15px;
+    margin: 0px 10px;
+
+}
